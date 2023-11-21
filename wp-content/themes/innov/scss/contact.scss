@@ -1,0 +1,20 @@
+@import "partials/common";
+@import "partials/hero";
+section.hero {
+    background-image: url("../assets/img/contact-bg.jpg");
+    align-items: center;
+    .content {
+        .text {
+            h1 {
+                font-size: 50px;
+                text-transform: initial;
+                font-weight: normal;
+            }
+        }
+    }
+}
+@import "partials/contact/groupContact";
+@import "partials/contact/companyConctact";
+footer{
+    margin-top: 50vh;
+}

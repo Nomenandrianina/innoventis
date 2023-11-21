@@ -1,0 +1,143 @@
+[STEP] [2023-10-05 13:25:04] Recherche du fichier exécutable PHP CLI.
+[INFO] [2023-10-05 13:25:04] Nom de fichier de l’interface de ligne de commande PHP :php
+[INFO] [2023-10-05 13:25:04] Version de l’interface de ligne de commande PHP :8.1.18 (cli)
+[INFO] [2023-10-05 13:25:04] Limite de mémoire PHP CLI :128M/512M
+[INFO] [2023-10-05 13:25:04] Limite d’exécution de la CLI PHP :0/0
+[SUCCESS] [2023-10-05 13:25:04] Nous avons correctement détecté le fichier exécutable PHP CLI.
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Sauvegarde via PHP CLI initialisée avec succès.
+[STEP] [2023-10-05 13:25:04] [CLI] Initialisation de la sauvegarde…
+[INFO] [2023-10-05 13:25:04] [CLI] Version de sauvegarde et migration :1.3.0
+[INFO] [2023-10-05 13:25:04] [CLI] Site qui sera sauvegardé :http://innoventisgroup.com
+[INFO] [2023-10-05 13:25:04] [CLI] Version PHP : 8.1.18
+[INFO] [2023-10-05 13:25:04] [CLI] Version WP :6.3.1
+[INFO] [2023-10-05 13:25:04] [CLI] Version MySQL :10.5.19
+[INFO] [2023-10-05 13:25:04] [CLI] Longueur maximale de MySQL :268435456
+[INFO] [2023-10-05 13:25:04] [CLI] Serveur : non disponible
+[INFO] [2023-10-05 13:25:04] [CLI] Temps d’exécution maximum (en secondes) : 259200
+[INFO] [2023-10-05 13:25:04] [CLI] Memory limit (server): 128M
+[INFO] [2023-10-05 13:25:04] [CLI] Memory limit (wp-config): 40M
+[INFO] [2023-10-05 13:25:04] [CLI] Memory limit (wp-config admin): 256M
+[INFO] [2023-10-05 13:25:04] [CLI] Nombre maximum de lignes par requête (ce site) : 2000
+[INFO] [2023-10-05 13:25:04] [CLI] Vérifier si le répertoire de sauvegarde est inscriptible…
+[INFO] [2023-10-05 13:25:04] [CLI] Initialisation du gestionnaire d’erreurs personnalisé
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Ouais c’est inscriptible…
+[STEP] [2023-10-05 13:25:04] [CLI] Analyse des fichiers…
+[STEP] [2023-10-05 13:25:04] [CLI] Vérification de l’espace libre, réservation…
+[INFO] [2023-10-05 13:25:04] [CLI] Nécessite au moins 158375238 octets. [151.04 MB]
+[INFO] [2023-10-05 13:25:04] [CLI] La fonction d‘espace libre sur le disque n‘est pas désactivée - l‘utiliser...
+[INFO] [2023-10-05 13:25:04] [CLI] Vérification de chemin/partition : /home/innovmg/public_html/wp-content/backup-migration/backups
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Il y a 707,766.95 Mo gratuit. [691.18 GB]
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Super ! Il y a suffisamment d’espace.
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Confirmé, il y a suffisamment d’espace, vérifié :158375238 octets
+[INFO] [2023-10-05 13:25:04] [CLI] Analyse terminée - Trouvé4939 fichiers…
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Sauvegarde initialisée…
+[STEP] [2023-10-05 13:25:04] [CLI] Initialisation du système d’archivage…
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Système d’archivage initialisé…
+[STEP] [2023-10-05 13:25:04] [CLI] Préparation de la carte des fichiers…
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Fichiers préparés.
+[INFO] [2023-10-05 13:25:04] [CLI] Démarrage da la procédure de compression…
+[STEP] [2023-10-05 13:25:04] [CLI] Calcul de la mémoire intelligente…
+[INFO] [2023-10-05 13:25:04] [CLI] Il y a 384 Mo de mémoire utile
+[INFO] [2023-10-05 13:25:04] [CLI] Limite de mémoire WordPress : 256 Mo
+[SUCCESS] [2023-10-05 13:25:04] [CLI] Définir la limite de sécurité à 86 Mo
+[INFO] [2023-10-05 13:25:04] [CLI] Utilisation du module PclZip pour créer la sauvegarde
+[INFO] [2023-10-05 13:25:04] [CLI] Réglage hérité : utilisation de modules par défaut en fonction du serveur utilisateur/utilisatrice
+[STEP] [2023-10-05 13:25:04] [CLI] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-10-05 13:25:04] [CLI] Itération de la base de données…
+[INFO] [2023-10-05 13:25:04] [CLI] Memory usage after initialization: 37.65 MB
+[VERBOSE] [2023-10-05 13:25:04] [CLI] Exporting database via zip.php
+[INFO] [2023-10-05 13:25:05] [CLI] Scan found 32 tables (4968 rows), estimated total size: 5.59 MB.
+[INFO] [2023-10-05 13:25:05] [CLI] Memory usage after getting table names: 37.66 MB 
+[INFO] [2023-10-05 13:25:05] [CLI] Getting table recipes...
+[INFO] [2023-10-05 13:25:05] [CLI] Table recipes have been exported.
+[INFO] [2023-10-05 13:25:05] [CLI] Memory usage after loading recipes: 37.68 MB 
+[INFO] [2023-10-05 13:25:05] [CLI] Saving recipes...
+[INFO] [2023-10-05 13:25:05] [CLI] Recipes saved.
+[INFO] [2023-10-05 13:25:05] [CLI] Memory usage after recipe off-load: 37.67 MB
+[INFO] [2023-10-05 13:25:05] [CLI] Exporting table data...
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_commentmeta (1/32, 0.05 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp2a_commentmeta is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_comments (2/32, 0.09 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_comments finished (0.00100s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_links (3/32, 0.03 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp2a_links is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_options (4/32, 1.55 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_options finished (0.04137s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_postmeta (5/32, 0.05 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_postmeta finished (0.00075s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_posts (6/32, 0.08 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_posts finished (0.00157s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_term_relationships (7/32, 0.03 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_term_relationships finished (0.00053s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_term_taxonomy (8/32, 0.05 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_term_taxonomy finished (0.00063s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_termmeta (9/32, 0.05 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp2a_termmeta is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_terms (10/32, 0.05 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_terms finished (0.00063s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_usermeta (11/32, 0.05 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_usermeta finished (0.00115s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp2a_users (12/32, 0.06 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp2a_users finished (0.00094s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_commentmeta (13/32, 0.05 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_commentmeta is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_comments (14/32, 0.09 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_comments finished (0.00098s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_duplicator_packages (15/32, 0.03 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_duplicator_packages is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_links (16/32, 0.03 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_links is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_litespeed_url (17/32, 0.05 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_litespeed_url is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_litespeed_url_file (18/32, 0.09 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_litespeed_url_file is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_options (19/32, 1.48 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_options finished (0.01377s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_postmeta (20/32, 0.84 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_postmeta finished (0.11966s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_posts (21/32, 0.20 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_posts finished (0.06826s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_term_relationships (22/32, 0.03 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_term_relationships finished (0.00205s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_term_taxonomy (23/32, 0.05 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_term_taxonomy finished (0.00145s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_termmeta (24/32, 0.05 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_termmeta is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_terms (25/32, 0.05 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_terms finished (0.00274s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_usermeta (26/32, 0.05 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_usermeta finished (0.00330s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_users (27/32, 0.06 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_users finished (0.00118s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_yoast_indexable (28/32, 0.11 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_yoast_indexable finished (0.00591s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_yoast_indexable_hierarchy (29/32, 0.06 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_yoast_indexable_hierarchy finished (0.00107s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_yoast_migrations (30/32, 0.03 MB)
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Table export for: wp_yoast_migrations finished (0.00276s)
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_yoast_primary_term (31/32, 0.05 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_yoast_primary_term is empty, saving only recipe.
+[STEP] [2023-10-05 13:25:05] [CLI] Getting data of table: wp_yoast_seo_links (32/32, 0.05 MB)
+[INFO] [2023-10-05 13:25:05] [CLI] Table wp_yoast_seo_links is empty, saving only recipe.
+[INFO] [2023-10-05 13:25:05] [CLI] Table data exported.
+[INFO] [2023-10-05 13:25:05] [CLI] Memory usage after data export: 37.68 MB
+[INFO] [2023-10-05 13:25:05] [CLI] Entire process took: 0.4763 s
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Sauvegarde de base de données terminée
+[STEP] [2023-10-05 13:25:05] [CLI] Faire une archive
+[INFO] [2023-10-05 13:25:05] [CLI] Compression…
+[INFO] [2023-10-05 13:25:05] [CLI] La sauvegarde s’exécute sous l’environnement PHP CLI.
+[STEP] [2023-10-05 13:25:05] [CLI] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-10-05 13:25:05] [CLI] Database added to the backup successfully.
+[STEP] [2023-10-05 13:25:05] [CLI] Performing site files backup...
+[INFO] [2023-10-05 13:25:05] [CLI] Les portions contiennent 200 fichiers.
+[INFO] [2023-10-05 13:25:08] [CLI] Étape :1000/4939
+[INFO] [2023-10-05 13:25:10] [CLI] Étape :2000/4939
+[INFO] [2023-10-05 13:25:12] [CLI] Étape :3000/4939
+[INFO] [2023-10-05 13:25:15] [CLI] Étape :4000/4939
+[INFO] [2023-10-05 13:25:26] [CLI] Étape :4939/4939
+[SUCCESS] [2023-10-05 13:25:26] [CLI] Compressé 4939 fichiers
+[INFO] [2023-10-05 13:25:26] [CLI] Archivage de4939fichiers ont pris :21.14s
+[STEP] [2023-10-05 13:25:26] [CLI] Finalisation de la sauvegarde
+[INFO] [2023-10-05 13:25:26] [CLI] Ajout du manifeste…
+[STEP] [2023-10-05 13:25:26] [CLI] Fermeture des fichiers et des archives
+[END-CODE] [2023-10-05 13:25:26] [CLI] #001

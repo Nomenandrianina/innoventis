@@ -1,0 +1,110 @@
+section.secteurs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .item{
+        width: 50%;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        height: 400px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-color: $bodyColor;
+        &:last-child{
+            width: 100%;
+        }
+        img{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: all .8s;
+        }
+        .gradient{
+            width: 100%;
+            height: 100%;
+            background-color: $bodyColor;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55.73%, rgba(0, 0, 0, 0.95) 100%);
+            position: relative;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        h2{
+            position: relative;
+            font-size: 40px;
+            width: max-content;
+            max-width: 100%;
+            text-align: center;
+            font-weight: 900;
+            text-transform: uppercase;
+            transition: all .5s cubic-bezier(0.79,0.14,0.15,0.86);
+            &::after{
+                content: '';
+                display: block;
+                height: 1px;
+                width: 0%;
+                background-color: white;
+                position: absolute;
+                bottom: -15px;
+                left: 50%;
+                transform: translate(-50%);
+                transition: all .5s cubic-bezier(0.86,0,0.07,1);
+            }
+        }
+        span{
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: all .5s cubic-bezier(0.79,0.14,0.15,0.86);
+            font-size: 14px;
+        }
+        &:hover{
+            background-size: 120%;
+            img{
+                transform: scale(1.3);
+                filter: brightness(.3);
+            }
+            h2{
+                &::after{
+                    width: 70%;
+                }
+            }
+            span{
+                opacity: .8;
+                transform: translate(-50%, -50px);
+            }
+        }
+    }
+    @media (max-width: $lgBreakpoint) {
+        .item{
+            height: 300px;
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+    @media (max-width: $mdBreakpoint) {
+        .item{
+            height: 200px;
+            width: 100%;
+            h2{
+                font-size: 27px;
+            }
+            span{
+                top: initial;
+                bottom: -20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,616 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Innov Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-12 08:35+0000\n"
+"PO-Revision-Date: 2023-05-26 11:40+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2\n"
+"X-Domain: innov"
+
+#: secteurs-d-activite/immobilier.php:12 secteurs-d-activite/importation.php:11
+#: secteurs-d-activite/industrialisation.php:11
+#: secteurs-d-activite/internationalisation.php:12
+#: secteurs-d-activite/services.php:11 includes/home/section-groupe.php:118
+#: includes/secteurs-d-activite/section-voir-plus.php:2
+msgid "/secteurs-dactivite"
+msgstr "/en/business-clusters/"
+
+#: activites.php:38
+msgid "/secteurs-dactivite/immobilier"
+msgstr "/en/business-clusters/real-estate/"
+
+#: activites.php:20
+msgid "/secteurs-dactivite/importation-et-distribution/"
+msgstr "/en/business-clusters/import-and-distribution"
+
+#: activites.php:26
+msgid "/secteurs-dactivite/industrialisation"
+msgstr "/en/business-clusters/industrialization"
+
+#: activites.php:44
+msgid "/secteurs-dactivite/internationalisation"
+msgstr "/en/business-clusters/internationalization"
+
+#: activites.php:32
+msgid "/secteurs-dactivite/services"
+msgstr "/en/business-clusters/services"
+
+#: includes/home/section-about-us.php:13
+#| msgid ""
+#| "<strong>Innoventis Group</strong> est une entreprise malgache spécialisée "
+#| "dans\n"
+#| "                    l'innovation et le développement économique. Notre "
+#| "mission est d'offrir des solutions\n"
+#| "                    innovantes aux professionnels et aux ménages "
+#| "malgaches. Nous croyons que la\n"
+#| "                    collaboration, la créativité et l'engagement envers "
+#| "la communauté sont les clés pour\n"
+#| "                    contribuer au développement économique et social de "
+#| "Madagascar."
+msgid ""
+"<strong>Innoventis Group</strong> est un groupe d'entreprises malgache spécialisé "
+"dans\n"
+"                    l'innovation et le développement économique. Notre "
+"mission est d'offrir des solutions\n"
+"                    innovantes aux professionnels et aux ménages malgaches. "
+"Nous croyons que la\n"
+"                    collaboration, la créativité et l'engagement envers la "
+"communauté sont les clés pour\n"
+"                    contribuer au développement économique et social de "
+"Madagascar."
+msgstr ""
+"<strong>Innoventis Group</strong> is a Malagasy business group specializing in\n"
+"                    innovation and economic development. Our mission is to "
+"offer innovative solutions\n"
+"                    innovative solutions to Malagasy professionals and "
+"households. We believe that\n"
+"                    collaboration, creativity and commitment to the "
+"community are the keys to contribute to the\n"
+"                    contribute to the economic and social development of "
+"Madagascar"
+
+#: includes/home/section-mission.php:10
+msgid "Accélérer le développement de l'Afrique"
+msgstr "Accelerating Africa's Development"
+
+#: includes/home/section-mission.php:20
+#| msgid ""
+#| "Apporter des produits de qualité à des prix accessibles à travers "
+#| "l'industrialisation de\n"
+#| "                l'Afrique"
+msgid ""
+"Apporter des produits de qualité à des prix accessibles à travers "
+"l'industrialisation de\n"
+"                l'Afrique"
+msgstr ""
+"To bring quality products at affordable prices through the industrialization "
+"of\n"
+"                Africa"
+
+#: includes/secteurs-d-activite/section-voir-plus.php:3
+msgid "autres secteurs d'activités"
+msgstr "other business clusters"
+
+#: includes/home/section-values.php:56
+msgid "Challenge"
+msgstr "Challenge"
+
+#: includes/home/section-mots-directeur.php:10
+#| msgid ""
+#| "Chers partenaires, clients et collaborateurs d'Innoventis Group, <br><br>"
+#| "\n"
+#| "\n"
+#| "            Je suis heureux de vous accueillir dans notre entreprise, qui "
+#| "s'engage à apporter des solutions\n"
+#| "            innovantes aux professionnels et aux ménages malgaches, tout "
+#| "en contribuant activement au\n"
+#| "            développement économique et social de Madagascar. <br><br>\n"
+#| "\n"
+#| "            Notre groupe se concentre sur les valeurs fondamentales de "
+#| "passion, d'excellence, d'intégrité,\n"
+#| "            d'engagement, d'innovation et de challenge pour atteindre "
+#| "notre mission de devenir un leader en\n"
+#| "            matière d'innovation et de développement économique en "
+#| "Afrique. <br><br>\n"
+#| "\n"
+#| "            Nous croyons en la puissance de la collaboration et de la "
+#| "créativité pour relever les défis les plus\n"
+#| "            complexes et pour offrir des solutions durables et de qualité "
+#| "supérieure à nos clients et\n"
+#| "            partenaires. Nous nous engageons également à offrir un "
+#| "environnement de travail sécuritaire,\n"
+#| "            stimulant et valorisant pour nos collaborateurs, qui sont au "
+#| "cœur de notre entreprise. <br><br>\n"
+#| "\n"
+#| "            Nous sommes fiers de notre héritage, de nos réalisations "
+#| "passées et de notre ambition pour l'avenir.\n"
+#| "            Nous sommes convaincus que nous pouvons bâtir ensemble un "
+#| "avenir meilleur pour Madagascar, pour\n"
+#| "            l'Afrique et pour le monde. <br><br>\n"
+#| "            Merci de votre confiance et de votre soutien continu. <br><br>"
+#| "<br>\n"
+#| "\n"
+#| "            Cordialement, <br><br><br>\n"
+#| "\n"
+#| "            <strong>Ronald Richards</strong><br>\n"
+#| "            <span>Président Directeur Général de <strong>Innoventis "
+#| "Group</strong></span>"
+msgid ""
+"Chers partenaires, clients et collaborateurs d'Innoventis Group, <br><br>\n"
+"\n"
+"                Nous sommes heureux de vous accueillir sur notre site web. "
+"<br><br>\n"
+"\n"
+"\n"
+"                Innoventis Group est constitué de plusieurs entreprises dont "
+"les principaux secteurs d'activité sont la distribution, l'industrie, le "
+"service, l'immobilier ainsi que le négoce & sourcing. <br><br><br>\n"
+"\n"
+"\n"
+"                Innoventis Group se concentre sur ses valeurs fondamentales "
+"qui sont la passion, l'excellence, l'intégrité, l'engagement, l'innovation "
+"et le challenge pour atteindre sa plus grande mission : « Devenir un acteur "
+"majeur dans le  développement économique de l'Afrique, à travers nos "
+"expériences et notre savoir-faire ».<br><br>\n"
+"\n"
+"\n"
+"                Nous croyons en la puissance de la collaboration et de la "
+"créativité pour relever tous les défis. Nous nous engageons à offrir un "
+"environnement de travail sécuritaire, stimulant et valorisant pour nos "
+"collaborateurs, qui sont au cœur de notre entreprise.<br><br><br>\n"
+"\n"
+"                Depuis près de 70 ans, à l'aube des débuts de nos activités, "
+"nous avons eu pour vision de toujours viser l'excellence. Nous avons relevé "
+"des défis incroyables et sommes fiers de notre héritage, de nos "
+"accomplissements et de nos ambitions pour l'avenir. Nous sommes convaincus "
+"de pouvoir bâtir ensemble un meilleur avenir pour Madagascar, pour l'Afrique "
+"et pour le monde.<br><br><br>\n"
+"\n"
+"                Merci de votre confiance et de votre soutien continu.<br><br>"
+"<br>\n"
+"\n"
+"\n"
+"\n"
+"                <span>Shamir Samat, <strong>Managing Director</strong></span>"
+"."
+msgstr ""
+"Dear partners, customers and employees of Innoventis Group, <br><br>\n"
+"\n"
+"                 We are happy to welcome you to our website. <br><br>\n"
+"\n"
+"\n"
+"                 Innoventis Group is made up of several companies whose main "
+"sectors of activity are distribution, industry, service, real estate as well "
+"as trading & sourcing. <br><br><br>\n"
+"\n"
+"\n"
+"                 Innoventis Group focuses on its fundamental values which "
+"are passion, excellence, integrity, commitment, innovation and challenge to "
+"achieve its greatest mission: \"To become a major player in the economic "
+"development of Africa, through our experiences and our know-how”.<br><br>\n"
+"\n"
+"\n"
+"                 We believe in the power of collaboration and creativity to "
+"meet any challenge. We are committed to providing a safe, stimulating and "
+"rewarding work environment for our employees, who are at the heart of our "
+"business.<br><br><br>\n"
+"\n"
+"                 For nearly 70 years, at the dawn of the beginnings of our "
+"activities, our vision has been to always aim for excellence. We have "
+"overcome incredible challenges and are proud of our heritage, our "
+"accomplishments and our ambitions for the future. We are convinced that "
+"together we can build a better future for Madagascar, for Africa and for the "
+"world.<br><br><br>\n"
+"\n"
+"                 Thank you for your continued trust and support.<br><br><br>"
+"\n"
+"\n"
+"\n"
+"\n"
+"                 <span>Shamir Samat, <strong>Managing Director</strong>"
+"</span>."
+
+#: includes/home/section-hero.php:21
+msgid "Contribuer au développement de l'Afrique"
+msgstr "Contribute to Africa's development"
+
+#: secteurs-d-activite/importation.php:35
+msgid ""
+"Depuis plusieurs années, Maison SAMAT est une entreprise leader dans "
+"l'importation et la distribution qui se distingue par sa culture de "
+"l'excellence et la satisfaction client. Notre sélection de marques comme Bon "
+"Appetit, Sav'Or, Bonjour,Sunlite et bien d'autres reflète notre engagement à "
+"apporter à nos clients des produits d'un excellent rapport qualité prix. "
+"Nous proposons également une large gamme de produits d'emballage et hygiène "
+"dédiés au CHR (Café, hotel, restaurant)."
+msgstr ""
+"For several years, Maison SAMAT has been a leading import and distribution "
+"company that stands out for its culture of excellence and customer "
+"satisfaction. Our selection of brands such as Bon Appetit, Sav'Or, Bonjour, "
+"Sunlite and many others reflects our commitment to providing our customers "
+"with products with excellent value for money. We also offer a wide range of "
+"packaging and hygiene products dedicated to the CHR (Café, hotel, restaurant)"
+"."
+
+#: includes/home/section-groupe.php:87
+msgid "Des nouilles instantanées de qualité pour tous"
+msgstr "Quality instant noodles for everyone"
+
+#: secteurs-d-activite/industrialisation.php:52
+#: includes/home/section-groupe.php:72
+msgid "Des solutions d'emballage personnalisées pour votre entreprise"
+msgstr "Custom packaging solutions for your business"
+
+#: includes/home/section-groupe.php:118
+msgid "En savoir plus"
+msgstr "Find out more"
+
+#: activites.php:24 activites.php:30 activites.php:36 activites.php:42
+#: activites.php:48
+msgid "en savoir plus"
+msgstr "find out more"
+
+#: includes/home/section-values.php:25
+msgid "Engagement"
+msgstr "Commitment"
+
+#: secteurs-d-activite/internationalisation.php:36
+msgid ""
+"Entreprise de négoce mais aussi centrale d'achat, nous avons développé nos "
+"propres marques sur le marché malgache et sommes actuellement en phase "
+"d'extension vers le marché d'Afrique. Avec notre vision ambitieuse de "
+"l'avenir nous ambitionnons de contribuer au développement de l'Afrique en "
+"étendant cette présence sur le continent. Allant des produits alimentaires "
+"et FMCG, des produits automoto dont la pneumatique et les batteries, nous ne "
+"cessons d'apporter à nos clients des produits et des marques de qualités."
+msgstr ""
+"As a trading company but also a purchasing centre, we have developed our own "
+"brands on the Malagasy market and are currently in the process of expanding "
+"to the African market. With our ambitious vision of the future, we aim to "
+"contribute to the development of Africa by extending this presence on the "
+"continent. Ranging from food and FMCG products, automotive products "
+"including tires and batteries, we continue to provide our customers with "
+"quality products and brands."
+
+#: includes/home/section-values.php:47
+msgid "Excellence"
+msgstr "Excellency"
+
+#. Name of the template
+#: activites.php:41 secteurs-d-activite/immobilier.php:13
+msgid "Immobilier"
+msgstr "Real estate"
+
+#. Name of the template
+msgid "Importation"
+msgstr "Import"
+
+#: secteurs-d-activite/importation.php:12
+msgid "importation ET DISTRIBUTION"
+msgstr "Import and distribution"
+
+#: activites.php:23
+msgid "Importation et distributon"
+msgstr "Import and distribution"
+
+#. Name of the template
+#: activites.php:29 secteurs-d-activite/industrialisation.php:12
+msgid "Industrialisation"
+msgstr "Industrialization"
+
+#. Name of the theme
+msgid "Innov Theme"
+msgstr ""
+
+#: includes/home/section-values.php:32
+msgid "Innovation"
+msgstr "Innovation"
+
+#: activites.php:13
+msgid ""
+"Innoventis Group regroupe plusieurs entreprises spécialisées dans des "
+"secteurs d'activité variés tels que l'alimentation, la géolocalisation, "
+"l'informatique, l'immobilier, le négoce et l'industrie. Nous nous engageons "
+"à fournir des produits et services de qualité à nos clients à travers "
+"Madagascar et le continent africain."
+msgstr ""
+"Innoventis Group brings together several companies specializing in various "
+"business sectors such as food, geolocation, IT, real estate, trading and "
+"industry. We are committed to providing quality products and services to our "
+"customers across Madagascar and the African continent."
+
+#: template-contact.php:22
+msgid "Innoventis groupe"
+msgstr "Innoventis group"
+
+#: secteurs-d-activite/internationalisation.php:13
+msgid "Internationa-<br>lisation"
+msgstr "Internationa-<br>lization"
+
+#. Name of the template
+#: activites.php:47
+msgid "Internationalisation"
+msgstr "Internationalization"
+
+#: includes/home/section-values.php:17
+msgid "Intégrité"
+msgstr "Integrity"
+
+#: includes/home/section-values.php:49
+msgid ""
+"L'excellence, nous en avons fait un idéal. Toutes nos actions, nos décisions "
+"aspirent à viser l'excellence."
+msgstr ""
+"Excellence, we have made it an ideal. All our actions, our decisions aspire "
+"to aim for excellence."
+
+#: includes/home/section-values.php:19
+msgid ""
+"L'honnêteté, la fiabilité, l'éthique, le respect mutuel et l'honneur au "
+"travail sont les pierres angulaires favorisant une culture d'entreprise "
+"saine et une performance renforcée."
+msgstr ""
+"Honesty, reliability, ethics, mutual respect and honor at work are the "
+"cornerstones fostering a healthy corporate culture and enhanced performance."
+
+#: includes/home/section-values.php:34
+msgid ""
+"L'innovation est au cœur de nos activités et nous essayons toujours "
+"d'évoluer pour répondre aux besoins du marché. Nous sommes déterminés à "
+"améliorer continuellement les solutions que nous proposons pour satisfaire "
+"nos clients."
+msgstr ""
+"Innovation is at the heart of our business and we always try to evolve to "
+"meet market needs. We are committed to continuously improving the solutions "
+"we offer to satisfy our customers."
+
+#: includes/home/section-groupe.php:57
+msgid "La solution pour vos besoins en quincaillerie et mobiliers de bureau"
+msgstr "The solution for your hardware and office furniture needs"
+
+#: secteurs-d-activite/services.php:35
+msgid ""
+"Le contexte actuel fait que les entreprises recherchent de solution pour "
+"mieux gérer leur ressource afin de gagner en efficacité, de gagner du temps "
+"et donc de gagner en rentabilité.<br>\n"
+"                Une des problématiques à laquelle les entreprises sont "
+"confrontées est la gestion, le contrôle et le suivi\n"
+"                de leur flotte de véhicules.<br>\n"
+"                M-TEC a mis toute son expertise afin de proposer des "
+"solutions sur mesure pour répondre à ce besoin. Notre service de "
+"géolocalisation clé en main permet une gestion plus facile et plus efficace "
+"des véhicules ce qui peut avoir un impact positif sur la rentabilité de "
+"l'entreprise en améliorant la satisfaction client.\n"
+"                "
+msgstr ""
+"The current context means that companies are looking for solutions to better "
+"manage their resources in order to increase efficiency, save time and "
+"therefore increase profitability.<br>\n"
+"                 One of the problems with which companies are confronted is "
+"the management, control and monitoring\n"
+"                 of their fleet of vehicles.<br>\n"
+"                 M-TEC has put all its expertise to offer tailor-made "
+"solutions to meet this need. Our turnkey geolocation service allows easier "
+"and more efficient management of vehicles, which can have a positive impact "
+"on the company's profitability by improving customer satisfaction."
+
+#: includes/home/section-groupe.php:2
+msgid "LE GROUPE"
+msgstr "THE GROUP"
+
+#: includes/home/section-values.php:58
+msgid ""
+"Les défis sont des opportunités pour grandir et évoluer. Nous sommes prêts à "
+"relever les défis les plus complexes pour apporter des solutions innovantes "
+"et durables à nos clients et partenaires."
+msgstr ""
+"Challenges are opportunities to grow and evolve. We are ready to take on the "
+"most complex challenges to provide innovative and sustainable solutions to "
+"our customers and partners."
+
+#: template-contact.php:47
+msgid "Les entreprises du groupe"
+msgstr "Group companies"
+
+#: secteurs-d-activite/industrialisation.php:32
+msgid ""
+"Madagascar Food Industries est une usine agroalimentaire spécialisée dans la "
+"production et la transformation alimentaire. Nos activités se traduisent "
+"aujourd'hui par la production de nouilles instantanées. Avec notre "
+"engagement en faveur de la qualité et de l'accessibilité, nous proposons la "
+"marque Wana pour répondre aux besoins et aux préférences de tous nos clients."
+" Nous avons à cœur de produire des nouilles instantanées savoureuses et "
+"nutritives, qui conviennent à chacun."
+msgstr ""
+"Madagascar Food Industries is an agri-food factory specializing in food "
+"production and processing. Our activities translate today into the "
+"production of instant noodles. With our commitment to quality and "
+"affordability, we offer the Wana brand to meet the needs and preferences of "
+"all our customers. We are committed to producing tasty and nutritious "
+"instant noodles that are suitable for everyone."
+
+#: includes/home/section-mots-directeur.php:7
+msgid "Mots du directeur"
+msgstr "CEO's words"
+
+#: includes/home/section-values.php:11
+msgid "Nos"
+msgstr "Our"
+
+#. Name of the template
+msgid "Nos secteurs d'activites"
+msgstr "Our business clusters"
+
+#: includes/home/section-hero.php:22
+msgid "Nos Secteurs d'activités"
+msgstr "Our business clusters"
+
+#: activites.php:11
+msgid "Nos secteurs d'activités"
+msgstr "Our business clusters"
+
+#: includes/home/section-mission.php:6
+msgid "Notre mission"
+msgstr "Our mission"
+
+#: includes/home/section-mission.php:16
+msgid "Notre vision"
+msgstr "Our vision"
+
+#: includes/home/section-about-us.php:10
+msgid "nous ?"
+msgstr "we ?"
+
+#. Name of the template
+msgid "Nous Contacter"
+msgstr "Contact us"
+
+#: includes/home/section-values.php:27
+msgid ""
+"Nous croyons en l'importance de s'engager envers la qualité, afin "
+"d'instaurer une relation de confiance durable avec nos clients et nos "
+"partenaires."
+msgstr ""
+"We believe in the importance of a commitment to quality, in order to "
+"establish a lasting relationship of trust with our customers and partners."
+
+#: secteurs-d-activite/internationalisation.php:33
+#: includes/home/section-groupe.php:43
+msgid "Négociant de confiance pour les marques de qualité"
+msgstr "Trusted Trader for Quality Brands"
+
+#: secteurs-d-activite/industrialisation.php:55
+msgid ""
+"Oshwal Industrie est une usine de fabrication de carton, personnalisable en "
+"fonction des besoins et demandes de nos clients. Avec notre désir de "
+"toujours offrir un service de qualité supérieur à nos clients, nous nous "
+"nous sommes engagés dans la durabilité de nos produits tout en réduisant "
+"notre impact environnemental."
+msgstr ""
+"Oshwal Industrie is a cardboard manufacturing plant, customizable according "
+"to the needs and demands of our customers. With our desire to always provide "
+"superior service to our customers, we are committed to the sustainability of "
+"our products while reducing our environmental impact."
+
+#: secteurs-d-activite/importation.php:58
+msgid ""
+"Oshwal Trade, notre objectif est de fournir un service professionnel avec "
+"des produits de qualité pour satisfaire les besoins de notre clientèle B2B "
+"ou B2C. Spécialisés dans l'importation et la distribution de marchandises "
+"générales, nous sommes surtout reconnus sur les produits de quincaillerie et "
+"d'outillage, les machines semi-industrielles et les mobiliers de bureau haut "
+"de gamme avec plus de 6 000 références de produits."
+msgstr ""
+"Oshwal Trade, our goal is to provide professional service with quality "
+"products to satisfy the needs of our B2B or B2C customers. Specialized in "
+"the import and distribution of general merchandise, we are especially "
+"recognized for hardware and tooling products, semi-industrial machinery and "
+"high-end office furniture with more than 6,000 product references."
+
+#: template-contact.php:12
+msgid "Parce que votre satisfaction est notre priorité, contactez-nous."
+msgstr "Because your satisfaction is our priority, contact us."
+
+#: includes/home/section-values.php:39
+msgid "Passion"
+msgstr "Passion"
+
+#: footer.php:24
+msgid "Plan du site"
+msgstr "Sitemap"
+
+#: secteurs-d-activite/importation.php:55
+msgid ""
+"Plus de 6000 références produits (Quincaillerie,Solaire,Luminaire,Papeterie,"
+"Mobilier de bureau…)"
+msgstr ""
+"More than 6000 product references (Hardware, Solar, Lighting, Stationery, "
+"Office furniture, etc.)"
+
+#: includes/home/section-about-us.php:9
+msgid "Qui sommes-"
+msgstr "Who are"
+
+#: secteurs-d-activite/importation.php:11
+msgid "secteurs d'activités"
+msgstr "business clusters"
+
+#: secteurs-d-activite/immobilier.php:12
+#: secteurs-d-activite/industrialisation.php:11
+#: secteurs-d-activite/internationalisation.php:12
+#: secteurs-d-activite/services.php:11
+msgid "secteurs d'activités /"
+msgstr "business clusters /"
+
+#. Name of the template
+#: secteurs-d-activite/services.php:12
+msgid "Services"
+msgstr "Services"
+
+#: activites.php:35
+msgid "services"
+msgstr "services"
+
+#: secteurs-d-activite/immobilier.php:36
+msgid ""
+"SIMMA gère le patrimoine immobilier du groupe. Passionnés par l'immobilier, "
+"nous sommes fiers d'accompagner nos clients vers un investissement de "
+"confiance et rentable."
+msgstr ""
+"SIMMA manages the group's real estate assets. Passionate about real estate, "
+"we are proud to support our clients towards a trustworthy and profitable "
+"investment."
+
+#. Author of the theme
+msgid "Toky RT"
+msgstr ""
+
+#: includes/home/section-values.php:41
+msgid "Travailler avec passion est pour nous l'une des clés de réussite."
+msgstr "Working with passion is for us one of the keys to success."
+
+#: includes/home/section-values.php:11
+msgid "valeurs"
+msgstr "values"
+
+#: secteurs-d-activite/immobilier.php:33
+msgid ""
+"Valorisez votre patrimoine immobilier avec une gestion sur-mesure et de "
+"confiance"
+msgstr ""
+"Enhance your real estate assets with tailor-made and trustworthy management"
+
+#: includes/home/section-groupe.php:16
+msgid ""
+"Votre partenaire de confiance pour la distribution de produits alimentaires "
+"etd'emballage"
+msgstr ""
+"Your trusted partner for the distribution of food and packaging products"
+
+#: secteurs-d-activite/importation.php:32
+msgid ""
+"Votre partenaire de confiance pour la distribution de produits de grande "
+"consommation"
+msgstr "Your trusted partner for the distribution of FMCG products"
+
+#: secteurs-d-activite/services.php:32
+msgid "Votre partenaire de confiance pour la géolocalisation de véhicules"
+msgstr "Your trusted partner for vehicle geolocation"
+
+#: includes/home/section-groupe.php:29
+msgid ""
+"Votre partenaire de confiance pour la géolocalisation et de matériels "
+"informatiques"
+msgstr "Your trusted partner for geolocation and computer equipment"
+
+#: includes/home/section-groupe.php:103
+msgid "Votre partenaire de confiance pour réussir dans l'immobilier"
+msgstr "Your trusted partner for real estate success"

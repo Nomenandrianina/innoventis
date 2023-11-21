@@ -1,0 +1,110 @@
+section.about-us{
+    position: relative;
+    margin-top: 15vh;
+    .square{
+        height: 120%;
+        width: 40%;
+        background-color: $greyBg;
+        position: absolute;
+        left: 0;
+        top: -10%;
+    }
+    .content{
+        // border: 1px solid red;
+        // background-image: url('../assets/img/about-us.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        // max-width: 900px;
+        width: 75%;
+        // width: 100%;
+        margin-right: 0;
+        margin-left: auto;
+        position: relative;
+        &>div{
+            background: #001948a9;
+            // backdrop-filter: blur(4px);
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 10vh 3%;
+            position: relative;
+            img.bulb{
+                position: absolute;
+                right: 0;
+                bottom: -10%;
+                max-width: 350px;
+            }
+            img.about-us{
+                max-width: 500px;
+                width: 100%;
+                margin-left: -12%;
+                border-radius: 10px;
+                filter: drop-shadow(-22px 47px 58px rgba(0, 0, 0, 0.25));
+                // transition: all .2s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .text{
+                margin-left: 5%;
+                max-width: 400px;
+                .title{
+                    font-weight: 700;
+                    display: flex;
+                    flex-direction: column;
+                    .nous{
+                        font-weight: 900;
+                        font-size: 70px;
+                        line-height: 80%;
+                        text-transform: uppercase;
+                    }
+                }
+                p{
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+                .divider{
+                    width: 100px;
+                    height: 5px;
+                    background-color: white;
+                    transition: all .4s cubic-bezier(0.18,0.89,0.34,1.5);
+                }
+                &:hover{
+                    .divider{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $xlBreakpoint) {
+        .content{
+            width: 100%;
+            &>div{
+                padding-left: $px;
+                padding-right: $px;
+                img.about-us{
+                    // max-width: 00px;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    @media (max-width: $lgBreakpoint) {
+        .content{
+            &>div{
+                flex-direction: column-reverse;
+                img.about-us{
+                    width: 100%;
+                    max-width: initial;
+                    margin-top: 40px;
+                }
+                .text{
+                    max-width: initial;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

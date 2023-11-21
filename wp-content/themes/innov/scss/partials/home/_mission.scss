@@ -1,0 +1,67 @@
+section.mission{
+    margin-top: 20vh;
+    .cards{
+        padding-left: $px;
+        padding-right: $px;
+        max-width: 1050px;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        .item{
+            background-color: $blue;
+            padding: 5%;
+            max-width: 360px;
+            min-height: 350px;
+            width: 100%;
+            color: white;
+            .title{
+                margin-bottom: 30px;
+                img{
+                    width: 60px;
+                    margin-bottom: 15px;
+                }
+                h2{
+                    text-transform: uppercase;
+                    font-weight: 700;
+                }
+                .divider{
+                    width: 50px;
+                    height: 5px;
+                    background-color: white;
+                    transition: all .4s cubic-bezier(0.77,0,0.18,1);
+                }
+            }
+            &:hover{
+                .title{
+                    .divider{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .background{
+        background: url('../assets/img/port-night.webp');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 250px;
+        margin-top: -150px;
+        filter: brightness(.5);
+        z-index: 1;
+    }
+    @media (max-width: $smBreakpoint) {
+        .cards{
+            flex-direction: column;
+            .item{
+                max-width: initial;
+                min-height: initial;
+            }
+        }
+    }
+}

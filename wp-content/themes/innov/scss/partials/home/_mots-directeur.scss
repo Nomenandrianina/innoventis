@@ -1,0 +1,79 @@
+section.mots-directeur{
+    display: flex;
+    margin-top: 21vh;
+    .left{
+        background-color: $bodyColor;
+        max-width: 650px;
+        width: 100%;
+        position: relative;
+        img{
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            max-width: 600px;
+            width: 100%;
+        }
+    }
+    .right{
+        width: 100%;
+        background-color: $greyBg;
+        padding: 3%;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        position: relative;
+        img{
+            position: absolute;
+            width: 190px;
+            top: -81px;
+            left: -82px;
+        }
+        h3{
+            text-transform: uppercase;
+            font-weight: 700;
+            position: relative;
+        }
+        .divider{
+            background-color: $blue;
+            height: 5px;
+            width: 70px;
+            margin-top: 10px;
+            transition: all .4s cubic-bezier(0.77,0,0.18,1);
+        }
+        p{
+            margin-top: 40px;
+            max-width: 900px;
+            line-height: 17px;
+            font-size: 15px;
+            span strong{
+                color: $blue;
+            }
+        }
+        &:hover{
+            .divider{
+                width: 50%;
+            }
+        }
+    }
+    @media (max-width: $mdBreakpoint) {
+        flex-direction: column;
+        .left{
+            max-width: initial;
+            img{
+                position: initial;
+                max-width: 300px;
+            }
+        }
+        .right{
+            img{
+                right: 0;
+                left: auto;
+                max-width: 130px;
+                top: -56px;
+            }
+            h3{
+                margin-top: 30px;
+            }
+        }
+    }
+}

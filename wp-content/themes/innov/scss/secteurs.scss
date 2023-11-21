@@ -1,0 +1,6 @@
+@import 'partials/common';
+@import 'partials/secteurs/hero';
+section.hero{
+    background-image: url("../assets/img/secteurs-bg.jpg");
+}
+@import 'partials/secteurs/secteurs';

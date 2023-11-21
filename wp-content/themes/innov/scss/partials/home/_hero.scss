@@ -1,0 +1,146 @@
+section.hero {
+    background-color: $bodyColor;
+    min-height: 80vh;
+    background-color: $bodyColor;
+    position: relative;
+    .swiper {
+        width: 100%;
+        height: 80vh;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        .swiper-wrapper {
+            .swiper-slide {
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                transform-origin: center;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    animation: bgZoom 14s infinite alternate;
+                }
+            }
+        }
+    }
+    .gradient {
+        max-width: 960px;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(89.6deg, #000000 5.54%, rgba(0, 0, 0, 0) 98.53%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        z-index: 3;
+    }
+    .content {
+        max-width: $maxWidth;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: $px;
+        padding-right: $px;
+        color: white;
+        // border: 1px solid red;
+        height: 100%;
+        position: relative;
+        padding-top: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        z-index: 4;
+        .left {
+            h1 {
+                max-width: 600px;
+                text-transform: uppercase;
+                font-weight: 900;
+                font-size: 60px;
+                margin-bottom: 10vh;
+                height: 210px;
+            }
+            a {
+                color: white;
+                text-decoration: none;
+                background-color: $blue;
+                padding: 22px 25px;
+                text-transform: uppercase;
+                font-weight: 700;
+                transition: all 0.1s;
+                i {
+                    // font-size: 22px;
+                    margin-left: 5px;
+                    transition: all 0.1s;
+                }
+                &:hover {
+                    background-color: $blueHover;
+                    i {
+                        transform: translateX(10px);
+                    }
+                }
+            }
+        }
+        .stat{
+            max-width: 420px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            .rect{
+                width: 50%;
+                min-height: 140px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-weight: 900;
+                text-transform: uppercase;
+                .number{
+                    font-size: 52px;
+                    margin-top: 20px;
+                    &::before{
+                        content: '+';
+                    }
+                }
+                .text{
+                    font-size: 20px;
+                    text-align: center;
+                    line-height: 100%;
+                    word-wrap: break-word;
+                }
+                &:first-child{
+                    border-right: 1px solid white;
+                    border-bottom: 1px solid white;
+                    justify-content: center;
+                    .text{
+                        font-size: 25px;
+                        text-align: left;
+                    }
+                }
+                &:last-child{
+                    border-top: 1px solid white;
+                    border-left: 1px solid white;
+                    transform: translate(-1px, -1px);
+                }
+            }
+        }
+        @media screen and (max-width: $lgBreakpoint) {
+            .text{
+                h1{
+                    font-size: 40px;
+                }
+                a{
+                    // padding: 12px 15px;
+                }
+            }
+        }
+    }
+}
+
+@keyframes bgZoom {
+    to {
+        transform: scale(1.15);
+    }
+}
