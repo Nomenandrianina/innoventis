@@ -7,8 +7,8 @@ Ce référentiel contient trois branches principales :
 
 - **main :** Branche principale pour le développement stable.
 - **feature-Ben :** Branche pour le développement de nouvelles fonctionnalités pour Ben Yamine
-- - **feature-Francky :** Branche pour le développement de nouvelles fonctionnalités pour Francky
-  - 
+- **feature-Francky :** Branche pour le développement de nouvelles fonctionnalités pour Francky
+    
 ### Effectuer un pull pour mettre à jour votre branche
 
 Avant de commencer à travailler sur votre fonctionnalité, assurez-vous que votre branche locale est à jour en effectuant un pull :
